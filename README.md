@@ -7,6 +7,12 @@ See [`src/bydesign.coffee`](src/bydesign.coffee) for full documentation.
 ## Sample Interaction
 
 ```
-user1>> hubot bydesign activate user1
+user1>> bydesign deactivate user1
+hubot>> Username has been deactivated
+
+user1>> bydesign activate user1
 hubot>> Username has been activated
+
+user1>> bydesign reset user1 password1234
+hubot>> Passwords have been updated for (1) users
 ```
